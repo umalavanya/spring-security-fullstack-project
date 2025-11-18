@@ -1,0 +1,170 @@
+.app {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  background: white;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.auth-form {
+  text-align: center;
+}
+
+.auth-form h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn-login {
+  background-color: #667eea;
+  color: white;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.btn-login:hover {
+  background-color: #5a6fd8;
+}
+
+.btn-register {
+  background-color: #28a745;
+  color: white;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.btn-register:hover {
+  background-color: #218838;
+}
+
+.btn-logout {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-logout:hover {
+  background-color: #c82333;
+}
+
+.btn-public {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.btn-public:hover {
+  background-color: #138496;
+}
+
+.btn-secured {
+  background-color: #ffc107;
+  color: black;
+}
+
+.btn-secured:hover {
+  background-color: #e0a800;
+}
+
+.btn-admin {
+  background-color: #6f42c1;
+  color: white;
+}
+
+.btn-admin:hover {
+  background-color: #5e34b1;
+}
+
+.link-btn {
+  background: none;
+  border: none;
+  color: #667eea;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: inherit;
+}
+
+.link-btn:hover {
+  color: #5a6fd8;
+}
+
+.welcome {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.message {
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.message:not(:empty) {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  color: #333;
+}
+
+.test-accounts {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.test-accounts p {
+  margin: 5px 0;
+}
